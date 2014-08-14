@@ -1,0 +1,32 @@
+*{margin:0;padding:0}
+body{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height:1000px;
+}
+.ct{
+  position:relative;
+  top:40px;
+  left:30px;
+  width:500px;
+  overflow:hidden;
+  border:1px solid #000;
+  height:122px;
+}
+#navWrp{
+  position:absolute;
+  top:0;
+  left:0;
+  width:2000px;
+}
+.menu{
+  display:inline-block;
+  border:1px solid #f00;
+  float:left;
+  padding:50px;
+}
+
